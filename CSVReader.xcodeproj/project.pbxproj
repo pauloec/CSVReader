@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45303912806FABA00D0EED0 /* RootCoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = A45303902806FABA00D0EED0 /* RootCoordinator */; };
 		A4A47D4928058B5A003CB063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D4828058B5A003CB063 /* AppDelegate.swift */; };
 		A4A47D4B28058B5A003CB063 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D4A28058B5A003CB063 /* SceneDelegate.swift */; };
-		A4A47D4D28058B5A003CB063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D4C28058B5A003CB063 /* ViewController.swift */; };
-		A4A47D5028058B5A003CB063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47D4E28058B5A003CB063 /* Main.storyboard */; };
 		A4A47D5228058B5E003CB063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A47D5128058B5E003CB063 /* Assets.xcassets */; };
 		A4A47D5528058B5E003CB063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47D5328058B5E003CB063 /* LaunchScreen.storyboard */; };
 		A4A47D6028058B5E003CB063 /* CSVReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D5F28058B5E003CB063 /* CSVReaderTests.swift */; };
 		A4A47D6A28058B5E003CB063 /* CSVReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D6928058B5E003CB063 /* CSVReaderUITests.swift */; };
 		A4A47D6C28058B5E003CB063 /* CSVReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D6B28058B5E003CB063 /* CSVReaderUITestsLaunchTests.swift */; };
+		A4A47D842805B9B8003CB063 /* FileSearch in Frameworks */ = {isa = PBXBuildFile; productRef = A4A47D832805B9B8003CB063 /* FileSearch */; };
+		A4A47D862805B9BC003CB063 /* FileVisualizer in Frameworks */ = {isa = PBXBuildFile; productRef = A4A47D852805B9BC003CB063 /* FileVisualizer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A453038F2806FAA000D0EED0 /* RootCoordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RootCoordinator; path = ../RootCoordinator; sourceTree = "<group>"; };
 		A4A47D4528058B5A003CB063 /* CSVReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47D4828058B5A003CB063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4A47D4A28058B5A003CB063 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4A47D4C28058B5A003CB063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4A47D4F28058B5A003CB063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A47D5128058B5E003CB063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47D5428058B5E003CB063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A47D5628058B5E003CB063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		A4A47D6528058B5E003CB063 /* CSVReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47D6928058B5E003CB063 /* CSVReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReaderUITests.swift; sourceTree = "<group>"; };
 		A4A47D6B28058B5E003CB063 /* CSVReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4A47D7D28059888003CB063 /* FileVisualizer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FileVisualizer; path = ../FileVisualizer; sourceTree = "<group>"; };
+		A4A47D812805B941003CB063 /* FileSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FileSearch; path = ../FileSearch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45303912806FABA00D0EED0 /* RootCoordinator in Frameworks */,
+				A4A47D862805B9BC003CB063 /* FileVisualizer in Frameworks */,
+				A4A47D842805B9B8003CB063 /* FileSearch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +84,12 @@
 		A4A47D3C28058B5A003CB063 = {
 			isa = PBXGroup;
 			children = (
+				A4A47D7828058D0A003CB063 /* Packages */,
 				A4A47D4728058B5A003CB063 /* CSVReader */,
 				A4A47D5E28058B5E003CB063 /* CSVReaderTests */,
 				A4A47D6828058B5E003CB063 /* CSVReaderUITests */,
 				A4A47D4628058B5A003CB063 /* Products */,
+				A4A47D822805B9B8003CB063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +108,6 @@
 			children = (
 				A4A47D4828058B5A003CB063 /* AppDelegate.swift */,
 				A4A47D4A28058B5A003CB063 /* SceneDelegate.swift */,
-				A4A47D4C28058B5A003CB063 /* ViewController.swift */,
-				A4A47D4E28058B5A003CB063 /* Main.storyboard */,
 				A4A47D5128058B5E003CB063 /* Assets.xcassets */,
 				A4A47D5328058B5E003CB063 /* LaunchScreen.storyboard */,
 				A4A47D5628058B5E003CB063 /* Info.plist */,
@@ -127,6 +132,23 @@
 			path = CSVReaderUITests;
 			sourceTree = "<group>";
 		};
+		A4A47D7828058D0A003CB063 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47D7D28059888003CB063 /* FileVisualizer */,
+				A4A47D812805B941003CB063 /* FileSearch */,
+				A453038F2806FAA000D0EED0 /* RootCoordinator */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A4A47D822805B9B8003CB063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +165,11 @@
 			dependencies = (
 			);
 			name = CSVReader;
+			packageProductDependencies = (
+				A4A47D832805B9B8003CB063 /* FileSearch */,
+				A4A47D852805B9BC003CB063 /* FileVisualizer */,
+				A45303902806FABA00D0EED0 /* RootCoordinator */,
+			);
 			productName = CSVReader;
 			productReference = A4A47D4528058B5A003CB063 /* CSVReader.app */;
 			productType = "com.apple.product-type.application";
@@ -233,7 +260,6 @@
 			files = (
 				A4A47D5528058B5E003CB063 /* LaunchScreen.storyboard in Resources */,
 				A4A47D5228058B5E003CB063 /* Assets.xcassets in Resources */,
-				A4A47D5028058B5A003CB063 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A47D4D28058B5A003CB063 /* ViewController.swift in Sources */,
 				A4A47D4928058B5A003CB063 /* AppDelegate.swift in Sources */,
 				A4A47D4B28058B5A003CB063 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4A47D4E28058B5A003CB063 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4A47D4F28058B5A003CB063 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4A47D5328058B5E003CB063 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +461,9 @@
 				INFOPLIST_FILE = CSVReader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,9 +489,9 @@
 				INFOPLIST_FILE = CSVReader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +621,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A45303902806FABA00D0EED0 /* RootCoordinator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RootCoordinator;
+		};
+		A4A47D832805B9B8003CB063 /* FileSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FileSearch;
+		};
+		A4A47D852805B9BC003CB063 /* FileVisualizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FileVisualizer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4A47D3D28058B5A003CB063 /* Project object */;
 }
