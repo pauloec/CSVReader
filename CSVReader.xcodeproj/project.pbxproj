@@ -47,9 +47,9 @@
 		A4A47D6528058B5E003CB063 /* CSVReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47D6928058B5E003CB063 /* CSVReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReaderUITests.swift; sourceTree = "<group>"; };
 		A4A47D6B28058B5E003CB063 /* CSVReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A4EC67C82808442900DE53E3 /* FileSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FileSearch; path = Modules/FileSearch; sourceTree = "<group>"; };
-		A4EC67CA2808445700DE53E3 /* FileVisualizer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FileVisualizer; path = Modules/FileVisualizer; sourceTree = "<group>"; };
-		A4EC67CB2808447000DE53E3 /* RootCoordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RootCoordinator; path = Modules/RootCoordinator; sourceTree = "<group>"; };
+		A4EC67C82808442900DE53E3 /* FileSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FileSearch; sourceTree = "<group>"; };
+		A4EC67CA2808445700DE53E3 /* FileVisualizer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FileVisualizer; sourceTree = "<group>"; };
+		A4EC67CB2808447000DE53E3 /* RootCoordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RootCoordinator; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +138,7 @@
 				A4EC67CB2808447000DE53E3 /* RootCoordinator */,
 			);
 			name = Packages;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		A4A47D822805B9B8003CB063 /* Frameworks */ = {
